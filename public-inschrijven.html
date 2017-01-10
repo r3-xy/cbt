@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>thuiswerk-vacaturebank.nl - layout</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/overall.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/large.css" media="screen and (min-width:768px)" />
+<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:767px)" />
+</head>
+
+<body>
+<div id="outer">
+  <input type="checkbox" id="slide-checkbox" class="slide-checkbox" role="button">
+  <div id="container" class="slide">
+    <div id="header">
+      <a href="#" class="logo" title="thuiswerk-vacaturebank.nl"></a>
+      <label for="slide-checkbox" class="slide-toggle" onclick>Menu</label>
+      <a href="public-inschrijven.html" class="navbar-item register">Inschrijven</a>
+      <a href="public-inloggen.html" class="navbar-item login">Inloggen</a>
+      <span class="search"><input class="search-input" type="text"><span class="search-button" title="zoeken"></span></span>
+
+      <ul class="nav">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="public-vacatures.html">Thuiswerk vacatures</a></li>
+        <li class="nav-item"><a href="#">Informatie</a></li>
+        <li class="nav-item"><a href="#">Thuiswerk ervaringen</a></li>
+        <li class="nav-item"><a href="#">Klantenservice</a></li>
+        <li class="nav-item separate"><a href="#">Werkgevers</a></li>
+        <ul class="nav-breadcrumb">
+          <li class="nav-breadcrumb-item"><a href="#">Home</a></li>
+          <li class="nav-breadcrumb-item is-active"><a href="#">Inschrijven</a></li>
+        </ul>
+      </ul>
+    </div>
+
+    <div id="steps">
+      <ol class="steps-table">
+        <li class="current"><span></span><b>1. Inschrijven</b></li>
+        <li><span></span><b>2. Gebruikersnaam kiezen</b></li>
+        <li><span></span><b>3. Bevestigen</b></li>
+      </ol>
+    </div>
+   
+    <div id="main">
+      <span class="certified">
+        <p><img src="im/keurmerk-thuiswerk.png" height="58px" width="63px" style="float:right;"> Wij hebben het<br>
+        <a href="#">Keurmerk Thuiswerk</a></p>
+      </span>
+
+      <div class="content">
+        <form action="#" class="main-column">
+          <h1>Inschrijven</h1>
+          <p>Om je (gratis) in te schrijven, voer je je gegevens in en klik je op 'ga verder'. Na afronding van je inschrijving krijg je direct een overzicht van alle thuiswerk vacatures. <a href="public-inloggen.html">Ga naar inloggen</a> als je al een account hebt.</p>
+          <div class="form-labeled-item">
+            <label class="form-label-description" id="title1" for="Field1">Voornaam</label>
+            <div class="form-labeled-field">
+              <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+            </div>
+          </div>
+
+          <div class="form-labeled-item">
+            <label class="form-label-description" id="title1" for="Field1">Achternaam</label>
+            <div class="form-labeled-field">
+              <input id="Field2" name="Field2" type="password" class="field text fn" value="" size="8" tabindex="2">
+            </div>
+          </div>
+            
+          <div class="form-labeled-item">
+            <label class="form-label-description" id="title3" for="Field3">E-mailadres</label>
+            <div class="form-labeled-field">
+              <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="4"> 
+           </div>
+          </div>
+           
+          <div class="form-labeled-item">
+            <fieldset>
+              <legend id="title5" class="form-label-description">Geslacht</legend>
+              <div class="form-labeled-checkbox-radio">
+                <div>
+                  <input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="6" checked="checked">
+                  <label class="choice" for="Field5_0">Man</label>
+                </div>
+                <div>
+                  <input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="7">
+                  <label class="choice" for="Field5_1">Vrouw</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          
+          <div class="form-labeled-item">
+            <fieldset>
+              <div class="form-labeled-checkbox-radio">
+                <div>
+                  <input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="9">
+                  <label class="choice" for="Field6">Ik ga akkoord met de <a href="#">Algemene Voorwaarden</a> en het ontvangen van e-mails van derden zoals beschreven in het <a href="#">Privacybeleid</a>.</label>
+                <div>
+              </div>
+            </fieldset>
+          </div>
+          
+          <div class="form-labeled-item">
+            <div class="form-labeled-field">
+              <input class="button green" id="saveForm" name="saveForm" type="submit" value="Ga verder ">
+            </div>
+          </div>
+       </form>
+      </div>
+    </div>
+  
+    <div id="footer">
+      <span class="footer-block hide-at-medium">
+        <ul>
+          <li class="footer-head"><h3><a href="#">Home</a></h3></li>
+        </ul>
+        <ul>
+          <li class="footer-head"><h3><a href="#">Soorten thuiswerk</a></h3></li>
+          <li class="footer-item"><a href="#">Inpakwerk</a></li>
+          <li class="footer-item"><a href="#">Productie- en montagewerk</a></li>
+          <li class="footer-item"><a href="#">Producten testen</a></li>
+          <li class="footer-item"><a href="#">Computerwerk</a></li>
+          <li class="footer-item"><a href="#">Telefonisch thuiswerk</a></li>
+          <li class="footer-item"><a href="#">Enquetes</a></li>
+          <li class="footer-item"><a href="#">Administratief thuiswerk</a></li>
+          <li class="footer-item"><a href="#">Reclame rijden</a></li>
+        </ul>
+      </span>
+  
+      <span class="footer-block hide-at-medium">
+        <ul>
+          <li class="footer-head"><h3><a href="#">Over thuiswerk</a></h3></li>
+          <li class="footer-item"><a href="#">Wetten en regels</a></li>
+          <li class="footer-item"><a href="#">Belastingdienst</a></li>
+        </ul>
+        <ul>
+          <li class="footer-head"><h3><a href="#">Zelf thuiswerken</a></h3></li>
+          <li class="footer-item"><a href="#">Inschrijven</a></li>
+          <li class="footer-item"><a href="#">Inloggen</a></li>
+          <li class="footer-item"><a href="#">Vacatures</a></li>
+        </ul>
+        <ul>
+          <li class="footer-head"><h3><a href="#">Voor werkgevers</a></h3></li>
+          <li class="footer-item"><a href="#">Inschrijven</a></li>
+          <li class="footer-item"><a href="#">Inloggen</a></li>
+        </ul>
+      </span>
+  
+      <span class="footer-block">
+        <ul>
+          <li class="footer-head"><h3><a href="#">Klantenservice</a></h3></li>
+          <li class="footer-item"><a href="#">Over ons</a></li>
+          <li class="footer-item"><a href="#">Veel gestelde vragen</a></li>
+          <li class="footer-item"><a href="#">Contact opnemen</a></li>
+          <li class="footer-item"><a href="#">Keurmerk Thuiswerk</a></li>
+          <li class="footer-item"><a href="#">Algemene voorwaarden</a></li>
+          <li class="footer-item"><a href="#">Cookiebeleid</a></li>
+          <li class="footer-item"><a href="#">Privacybeleid</a></li>
+        </ul>
+      </span>
+  
+      <span class="footer-partners">
+        <img src="im/comodo-secured-footer.png" height="45" width="87">
+        <img src="im/apg-footer.png" height="41" width="132">
+        <img src="im/keurmerk-thuiswerk-footer.png" height="47" width="51">
+      </span>
+    </div>
+  </div>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='js/twvb.js'></script>
+</body>
+</html>

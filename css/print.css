@@ -1,0 +1,13 @@
+body {
+	font-family:Arial, sans-serif;
+	font-size:1em;
+	color:#000;
+}
+a:link, a:visited, a:hover, a:active {
+	color:#1e70b4;
+	text-decoration:none;
+}
+h1, h2, h3 { color:#1e70b4; }
+h1 { font-size:1.8em; }
+h2 { font-size:1.4em; }
+h3 { font-size:1.2em; }

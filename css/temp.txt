@@ -1,0 +1,19 @@
+#outer
+  #container .slide
+    #header
+      .logo
+      .slide-toggle
+      .register
+      .login
+      .search
+      .nav
+
+    #main
+      .registernow
+      .content
+        .jobs
+        .usp
+        .certified
+        .pop
+
+    #footer

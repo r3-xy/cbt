@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>thuiswerk-vacaturebank.nl - layout</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/overall.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/large.css" media="screen and (min-width:768px)" />
+<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:767px)" />
+</head>
+
+<body>
+<div id="outer">
+  <input type="checkbox" id="slide-checkbox" class="slide-checkbox" role="button">
+  <div id="container" class="slide">
+    <div id="header">
+      <a href="home.html" class="logo" title="thuiswerk-vacaturebank.nl"></a>
+      <div id="navbar">
+        <label for="slide-checkbox" class="slide-toggle" onclick>Menu</label>
+        <a href="account-vacatures.html" class="navbar-item jobs">Vacatures</a>
+        <a href="account-berichten.html" class="navbar-item messages">Berichten</a>
+        <span class="search"><input class="search-input" type="text"><span class="search-button" title="zoeken"></span></span>
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a href="account-startpagina.html">Startpagina</a></li>
+        <li class="nav-item"><a href="account-vacatures.html">Thuiswerk vacatures</a></li>
+        <li class="nav-item has-childs"><a>Mijn profiel</a>
+          <ul class="nav-sub">
+            <li class="nav-sub-item"><a href="account-mijn-profiel.html">Mijn profiel</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-profiel-wijzigen.html">Wijzigen</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-profiel-over-mij.html">Over mij</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-profiel-profielfoto.html">Profielfoto</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-profiel-privacy-instellingen.html">Privacy instellingen</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-childs is-active"><a>Mijn account</a>
+          <ul class="nav-sub">
+            <li class="nav-sub-item"><a href="account-mijn-gegevens-persoonlijke-gegevens.html">Gegevens wijzigen</a></li>
+            <li class="nav-sub-item is-active"><a href="account-mijn-gegevens-e-mail.html">E-mail instellingen</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-gegevens-wachtwoord.html">Wachtwoord wijzigen</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-gegevens-verwijderen.html">Account verwijderen</a></li>
+          </ul>
+        </li>
+        <li class="nav-item has-childs"><a>Mijn lidmaatschap</a>
+          <ul class="nav-sub">
+            <li class="nav-sub-item"><a href="account-mijn-lidmaatschap-overzicht.html">Overzicht</a></li>
+            <li class="nav-sub-item"><a href="account-mijn-lidmaatschap-opzeggen.html">Lidmaatschap opzeggen</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="#">Berichten</a></li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <span class="tip">
+        <h2>E-mail instellingen</h2>
+        <p>Je kunt je e-mail instellingen hiernaast aanpassen.<br>
+          Nadat je je voorkeuren hebt aangepast klik je op <b>"opslaan"</b>.</p>
+        <h2>E-mailadres wijzigen</h2>
+        <p>Vul je nieuwe e-mail adres in en klik op <b>"wijzigen"</b>:<br>
+          Je ontvangt nu een e-mail op het nieuwe e-mail adres.<br>
+          Open de e-mail en klik op de bevestigingslink.<br>
+          Je e-mail adres is nu gewijzigd.</p>
+      </span>
+      <div class="content">
+        <form action="#" class="main-column">
+          <h1>Mijn account</h1>
+          <fieldset class="form-panel">
+            <h2>E-mail instellingen</h2>
+            <div class="checkbox-fullwidth">
+              <input id="ch1" name="ch1" type="checkbox" value="First Choice">
+              <label class="choice" for="ch1">Ontvangen van nieuw thuiswerk</label>
+            </div>
+            <div class="checkbox-fullwidth">
+            <input id="ch2" name="ch2" type="checkbox" value="Second Choice">
+              <label class="choice" for="ch2">Ontvangen van hulp, tips en nieuws van thuiswerk-vacaturebank.nl</label>
+            </div>
+            <div class="checkbox-fullwidth">
+              <input id="ch3" name="ch3" type="checkbox" value="Third Choice">
+              <label class="choice" for="ch3">Ontvangen van speciaal geselecteerde acties (wijziging duurt 24 uur)</label>
+            </div>
+            <div class="checkbox-fullwidth">
+              <input id="ch4" name="ch4" type="checkbox" value="Third Choice">
+              <label class="choice" for="ch4">Opdrachtgevers mogen via e-mail contact met mij opnemen</label>
+            </div>
+
+            <h3>E-mail bij een nieuw bericht</h3>
+            <p>Zodra je een bericht ontvangt in het thuiswerk berichten systeem, brengen wij je hiervan op de hoogte middels een e-mail. Hieronder kun je aangeven hoe vaak je deze e-mails wenst te ontvangen. </p>
+            <label class="form-label-description" for="Gender">Frequentie</label>
+            <div>
+              <select id="GenderID" required>
+                <optgroup label="selecteer">
+                  <option value="" disabled selected hidden>selecteer</option>
+                  <option value="3">Direct</option>
+                  <option value="1">Elk uur</option>
+                  <option value="2">Elke dag</option>
+                  <option value="7">1x per week</option>
+                  <option value="6">Geen notificaties</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-labeled-item">
+              <div class="form-labeled-field">
+                <input class="button" id="saveForm" name="saveForm" type="submit" value="Opslaan ">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-panel">
+            <h2>E-mailadres wijzigen</h2>
+            <p>Je kunt onderstaand e-mailadres wijzigen door een nieuw e-mailadres in te vullen. Nadat je op wijzigen hebt geklikt ontvang je een e-mail op het nieuwe e-mail adres. Je dient te klikken op de link in deze e-mail. Pas daarna is je e-mailadres gewijzigd!</p>
+            <div class="form-labeled-item">
+              <label class="form-label-description" for="email">Je e-mail adres</label>
+              <div>
+                <input id="email" type="text">
+              </div>
+            </div>
+            <div class="form-labeled-item">
+              <div class="form-labeled-field">
+                <input class="button" id="saveForm" name="saveForm" type="submit" value="Wijzigen ">
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  
+  </div>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src='js/twvb.js'></script>
+</body>
+</html>
